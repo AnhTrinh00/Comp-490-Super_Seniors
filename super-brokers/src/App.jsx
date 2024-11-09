@@ -7,6 +7,7 @@ import Signup from './Signup';
 import Dashboard from './Dashboard';
 import About from './About';
 import Help from './Help';
+import Account from './Account';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/' element={<Home />}></Route>
           <Route path="/About" element={<About />} />
           <Route path="/Help" element={<Help />} />
+          <Route path="/Account" element={<Account />} />
         </Routes>
       </BrowserRouter>
     </div>

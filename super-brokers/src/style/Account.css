@@ -1,0 +1,54 @@
+/* General layout */
+.Account-wrapper {
+    /* display: flex; */
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 200vh;
+    background-color: white;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* Hot Bar */
+.Account-hot-bar {
+    width: 100%;
+    background-color: grey;
+}
+
+.Account-row {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 20px;
+}
+
+.Account-logo-img, img {
+    width: 100px;
+    height: 100px;
+    border: 0;
+    z-index: 2;
+}
+
+.Account-nav-col {
+    display: inline-block;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Account-info-items {
+    font-size: xx-large;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #ffffff;
+    list-style-type: none;
+}
+.Account-Input-Items {
+    color: white;
+    background-color: lightgrey;    
+    min-width: 80vh;
+}
+
